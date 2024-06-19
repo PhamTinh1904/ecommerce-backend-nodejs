@@ -46,6 +46,20 @@ const newSpu = async ({
     newSku({ sku_list, spu_id: spu.product_id }).then();
   }
 
+  // 4. Sync data via elasticsearch
+  // // Assuming you have an Elasticsearch client instance named "client"
+  // await client.index({
+  //   index: 'your_index_name',
+  //   id: spu._id.toString(),
+  //   body: {
+  //     // Add the fields you want to sync to Elasticsearch
+  //     product_name: spu.product_name,
+  //     product_description: spu.product_description,
+  //     // Add more fields as needed
+  //   }
+  // });
+
+
   return !!spu;
 };
 

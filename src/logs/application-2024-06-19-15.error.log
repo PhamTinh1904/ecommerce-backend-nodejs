@@ -1,0 +1,1 @@
+2024-06-19 15:11:42::[error]::/v1/api/shop/login::842031ec-3f13-4e1c-a3f5-7c60b4bb2fe2::403 - 0ms - Response: {"status":403,"now":1718784702953}::{"message":"Email is required!"}
