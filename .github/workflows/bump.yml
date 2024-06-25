@@ -25,7 +25,7 @@ jobs:
         uses: bump-sh/github-action@v1
         with:
           doc: shoptu
-          token: 6gm8DiNoJZhes3PU6aBzgVxhSjG5eemR
+          token: vpDsBtuqNnmn5DoUtntNKjqXzgVkubgw
           file: doc/api-documentation.yml
   api-diff:
     if: ${{ github.event_name == 'pull_request' }}
@@ -38,7 +38,7 @@ jobs:
         uses: bump-sh/github-action@v1
         with:
           doc: shoptu
-          token: 6gm8DiNoJZhes3PU6aBzgVxhSjG5eemR
+          token: vpDsBtuqNnmn5DoUtntNKjqXzgVkubgw
           file: doc/api-documentation.yml
           command: diff
         env:
