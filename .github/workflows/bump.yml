@@ -25,7 +25,7 @@ jobs:
         with:
           doc: shoptu
           token: 6gm8DiNoJZhes3PU6aBzgVxhSjG5eemR
-          file: doc/api-documentation.yml
+          file: /api-documentation.yml
   api-diff:
     if: ${{ github.event_name == 'pull_request' }}
     name: Check API diff on Bump.sh
