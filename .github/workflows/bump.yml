@@ -24,7 +24,7 @@ jobs:
       - name: Deploy API documentation
         uses: bump-sh/github-action@v1
         with:
-          doc: shoptu
+          doc: 717c0a26-b273-449d-b5cb-a8489c61fac1
           token: vpDsBtuqNnmn5DoUtntNKjqXzgVkubgw
           file: doc/api-documentation.yml
   api-diff:
@@ -37,7 +37,7 @@ jobs:
       - name: Comment pull request with API diff
         uses: bump-sh/github-action@v1
         with:
-          doc: shoptu
+          doc: 717c0a26-b273-449d-b5cb-a8489c61fac1
           token: vpDsBtuqNnmn5DoUtntNKjqXzgVkubgw
           file: doc/api-documentation.yml
           command: deploy --auto-create
