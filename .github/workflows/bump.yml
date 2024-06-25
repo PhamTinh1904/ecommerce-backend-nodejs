@@ -40,7 +40,7 @@ jobs:
           doc: shoptu
           token: vpDsBtuqNnmn5DoUtntNKjqXzgVkubgw
           file: doc/api-documentation.yml
-          command: diff
+          command: deploy --auto-create
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
