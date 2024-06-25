@@ -12,6 +12,7 @@ on:
     branches:
       - main
       - master
+
 jobs:
   deploy-doc:
     if: ${{ github.event_name == 'push' }}

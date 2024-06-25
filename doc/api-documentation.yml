@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+  version: 0.1.9
+paths:
+  /path:
+    get:
+      summary: Optional extended description in CommonMark or HTML.
+      responses:
+        '200':
+          description: A JSON object containing pet information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  petType:
+                    type: string
+                required:
+                  - name
+                  - petType
