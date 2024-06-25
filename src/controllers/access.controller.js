@@ -40,13 +40,10 @@ class accessController {
       req.body
     );
 
-    const { code, ...result } = await AccessService.login(sendData);
-    if (code === 200) {
-      new SuccessResponse({
-        message: "Login successful!",
-        metadata: result,
-      }).send(res);
-    }
+    new SuccessResponse({
+      message: "Login successful!",
+      metadata: await AccessService.login(sendData),
+    }).send(res);
   };
   signUp = async (req, res, next) => {
     new CREATED({

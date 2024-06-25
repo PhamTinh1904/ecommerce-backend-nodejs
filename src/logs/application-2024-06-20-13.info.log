@@ -1,0 +1,22 @@
+2024-06-20 13:43:44::[info]::/v1/api/user/new_user::fae43d17-4f37-49bc-9747-84f2c649298f::input prams :: POST::{"email":"phamtinhpy2022@gmail.com"}
+2024-06-20 13:44:28::[info]::/v1/api/user/welcome-back::9c8902cf-8d6f-41cd-b707-c99a13a0488a::input prams :: GET::{"token":"2961835555"}
+2024-06-20 13:44:28::[info]::/favicon.ico::a31daf9e-0f8b-4dee-84d0-ba10036ce159::input prams :: GET::{}
+2024-06-20 13:44:38::[info]::/v1/api/user/welcom-back::577cfc81-d4a5-43dc-a2cd-4dbfe71d617d::input prams :: GET::{"token":"2961835555"}
+2024-06-20 13:44:38::[error]::/v1/api/user/welcom-back::577cfc81-d4a5-43dc-a2cd-4dbfe71d617d::404 - 1ms - Response: {"status":404,"now":1718865878207}::{"message":"Token not found"}
+2024-06-20 13:45:03::[info]::/v1/api/user/welcome-back::c69ad235-cd93-47ab-82f3-95aa94d09359::input prams :: GET::{"token":"2961835555"}
+2024-06-20 13:45:04::[info]::/favicon.ico::37a11391-0a27-43ea-9937-581c8b3bb5fb::input prams :: GET::{}
+2024-06-20 13:45:28::[info]::/v1/api/user/new_user::683cb910-8a51-42f2-9c1d-3ff2e90cfa26::input prams :: POST::{"email":"phamtinhpy2022@gmail.com"}
+2024-06-20 13:45:44::[info]::/v1/api/user/welcome-back::ee0b87c0-1602-424f-a549-d0af5ecbc2ec::input prams :: GET::{"token":"1335247545"}
+2024-06-20 13:45:44::[info]::/favicon.ico::d9e2cb04-4773-4bb8-bac6-a14e171580a6::input prams :: GET::{}
+2024-06-20 13:45:53::[info]::/v1/api/user/welcom-back::b61a29c8-2d6e-4992-9a2e-3d48cdc51123::input prams :: GET::{"token":"1335247545"}
+2024-06-20 13:45:53::[error]::/v1/api/user/welcom-back::b61a29c8-2d6e-4992-9a2e-3d48cdc51123::404 - 1ms - Response: {"status":404,"now":1718865953269}::{"message":"Token not found"}
+2024-06-20 13:48:06::[info]::/v1/api/user/new_user::75bc0708-4152-45c7-9c9e-bc3fb8d9b1f7::input prams :: POST::{"email":"phamtinhpy2022@gmail.com"}
+2024-06-20 13:48:17::[info]::/v1/api/user/welcom-back::82e73af0-6d2b-48dd-9a0f-0ec599b5c21c::input prams :: GET::{"token":"3596347597"}
+2024-06-20 13:48:17::[error]::/v1/api/user/welcom-back::82e73af0-6d2b-48dd-9a0f-0ec599b5c21c::undefined - NaNms - Response: {"errors":{"usr_role":{"stringValue":"\"\"","valueType":"string","kind":"ObjectId","value":"","path":"usr_role","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}},"_message":"User validation failed","name":"ValidationError","message":"User validation failed: usr_role: Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}::{"message":"User validation failed: usr_role: Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}
+2024-06-20 13:53:37::[info]::/v1/api/user/new_user::c5449452-24bf-41aa-9782-d741f4372db1::input prams :: POST::{"email":"phamtinhpy2022@gmail.com"}
+2024-06-20 13:53:49::[info]::/v1/api/user/welcom-back::40d9c8d1-b710-4aa8-bd7d-79e0e4c45d65::input prams :: GET::{"token":"1297466824"}
+2024-06-20 13:53:49::[error]::/v1/api/user/welcom-back::40d9c8d1-b710-4aa8-bd7d-79e0e4c45d65::undefined - NaNms - Response: {"errors":{"usr_role":{"stringValue":"\"\"","valueType":"string","kind":"ObjectId","value":"","path":"usr_role","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}},"_message":"User validation failed","name":"ValidationError","message":"User validation failed: usr_role: Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}::{"message":"User validation failed: usr_role: Cast to ObjectId failed for value \"\" (type string) at path \"usr_role\" because of \"BSONError\""}
+2024-06-20 13:56:09::[info]::/v1/api/user/new_user::d6a43be8-10d7-4371-abc5-30d7cf3b5953::input prams :: POST::{"email":"phamtinhpy2022@gmail.com"}
+2024-06-20 13:56:20::[info]::/v1/api/user/welcom-back::10e9aa2f-c1d6-4c02-b32b-62524f31dd3e::input prams :: GET::{"token":"1762805855"}
+2024-06-20 13:57:10::[info]::/v1/api/user/welcome-back::7634a52d-0ed1-4c5d-8d88-5d320e0e6106::input prams :: GET::{"token":"1762805855"}
+2024-06-20 13:57:10::[info]::/favicon.ico::8441e348-c070-4959-a7fc-5779004cdcb9::input prams :: GET::{}

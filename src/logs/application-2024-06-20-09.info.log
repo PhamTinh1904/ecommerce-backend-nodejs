@@ -1,0 +1,11 @@
+2024-06-20 09:26:24::[info]::/v1/api/shop/login::3ef3547e-ad81-428d-b164-46a1964f8aa1::input prams :: POST::{"password":"123"}
+2024-06-20 09:26:24::[error]::/v1/api/shop/login::3ef3547e-ad81-428d-b164-46a1964f8aa1::403 - 1ms - Response: {"status":403,"now":1718850384372}::{"message":"Email is required!"}
+2024-06-20 09:26:33::[info]::/v1/api/shop/login::c4da0cd2-ffb8-4282-9227-da43f41bf198::input prams :: POST::{"email":"phamtinh@gmail.com","password":"123"}
+2024-06-20 09:27:05::[info]::/v1/api/shop/login::2acb5369-8844-44aa-a11a-3df62e1496cd::input prams :: POST::{"email":"phamtinh@gmail.com","password":"123"}
+2024-06-20 09:27:54::[info]::/v1/api/shop/login::52c202ec-31b1-44ed-aa14-a7cd83aeba01::input prams :: POST::{"email":"phamtinh@gmail.com","password":"123"}
+2024-06-20 09:29:13::[info]::/v1/api/shop/login::8dbf640f-78e3-4770-bd7a-da4b7a0804c7::input prams :: POST::{"email":"phamtinh@gmail.com","password":"123"}
+2024-06-20 09:29:28::[info]::/v1/api/rbac/role::5250e318-2784-41a1-ac8d-66752f6bd0b0::input prams :: GET::{}
+2024-06-20 09:30:01::[info]::/v1/api/rbac/resource::3506a202-8ae1-4252-afaf-3da25f4de5e9::input prams :: GET::{}
+2024-06-20 09:31:42::[info]::/v1/api/profile/viewAny::8c7c8bbe-ed42-4266-8093-5a925f04be31::input prams :: GET::{"role":"admin"}
+2024-06-20 09:32:06::[info]::/v1/api/profile/viewAny::a91ae85d-0319-4230-b2fe-5ece0b9dc979::input prams :: GET::{"role":"user"}
+2024-06-20 09:32:06::[error]::/v1/api/profile/viewAny::a91ae85d-0319-4230-b2fe-5ece0b9dc979::401 - 1ms - Response: {"status":401,"now":1718850726270}::{"message":"You dont't have permission..."}

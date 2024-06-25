@@ -1,0 +1,2 @@
+2024-06-20 09:26:24::[error]::/v1/api/shop/login::3ef3547e-ad81-428d-b164-46a1964f8aa1::403 - 1ms - Response: {"status":403,"now":1718850384372}::{"message":"Email is required!"}
+2024-06-20 09:32:06::[error]::/v1/api/profile/viewAny::a91ae85d-0319-4230-b2fe-5ece0b9dc979::401 - 1ms - Response: {"status":401,"now":1718850726270}::{"message":"You dont't have permission..."}

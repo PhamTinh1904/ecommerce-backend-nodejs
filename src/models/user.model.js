@@ -1,6 +1,8 @@
 "use strict";
 
-const { Schema, model } = require("mongoose"); // Erase if already required
+const { Type } = require("@aws-sdk/client-s3");
+const { Schema, model, Types } = require("mongoose"); // Erase if already required
+
 
 const DOCUMENT_NAME = "User";
 
@@ -17,8 +19,9 @@ var userSchema = new Schema(
     usr_sex: { type: String, default: "" },
     usr_avatar: { type: String, default: "" },
     usr_date_of_birth: { type: Date, default: null },
-    // usr_role: { type: Schema.Types.ObjectId, ref: "Role" },
-    usr_role: { type: String, default: "" },
+    
+    usr_role: { type: Schema.Types.ObjectId, ref: "Role" },
+    // usr_role: { type: String, default: "" },
 
     usr_status: {
       type: String,

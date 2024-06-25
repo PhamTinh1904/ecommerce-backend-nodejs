@@ -9,6 +9,12 @@ const {
   createRole,
 } = require("../services/rbac.service");
 
+/**
+ * @desc Creates a new role
+ * @param {string} name 
+ * @param {*} res 
+ * @param {*} next 
+ */
 const newRole = async (req, res, next) => {
   new SuccessResponse({
     message: "Created resource",

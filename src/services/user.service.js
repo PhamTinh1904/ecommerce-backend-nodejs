@@ -1,6 +1,6 @@
 const { createUser } = require("../models/repositories/user.repo");
 const USER = require("../models/user.model");
-const { getInfoData } = require("../utils");
+const { getInfoData, convertToObjectIdMongodb } = require("../utils");
 const { sendEmailToken } = require("./email.service");
 const { checkEmailToken } = require("./otp.service");
 const {
@@ -48,7 +48,7 @@ class UserService {
       usr_email: email,
       usr_slug: "sad",
       usr_password: passwordHash,
-      usr_role: "",
+      usr_role: convertToObjectIdMongodb("663ed8daab4b29afdfcf5114"),
     });
 
     if (newUser) {

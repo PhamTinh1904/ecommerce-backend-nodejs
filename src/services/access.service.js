@@ -13,6 +13,9 @@ const {
   ForbiddenError,
 } = require("../core/error.response");
 const { findByEmail } = require("./shop.service");
+const { findUseryEmail } = require("../models/repositories/user.repo");
+
+
 
 const roleShop = {
   SHOP: "SHOP",
@@ -115,10 +118,11 @@ class AccessService {
   4. Get data return login 
    */
   static login = async ({ email, password, refreshToken = null }) => {
-    const foundShop = await findByEmail({ email });
+    // const foundShop = await findByEmail({ email });
+    const foundUser = await findUseryEmail({email})
 
 
-    if (!foundShop) {
+    if (!foundUser) {
       throw new BadRequestError("Shop not registered!");
     }
 

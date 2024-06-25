@@ -84,7 +84,9 @@ const roleList = async ({
   search = "",
 }) => {
   try {
-    //1. userId
+    //1. user Id
+          
+
 
     //2. List roles
     // const roles = await ROLE.find({});
